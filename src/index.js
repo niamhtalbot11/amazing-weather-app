@@ -14,6 +14,5 @@ root.render(
   <StrictMode>
     <App />
     
-    kjj
   </StrictMode>
 );
