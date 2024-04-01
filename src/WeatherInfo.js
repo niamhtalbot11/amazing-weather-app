@@ -1,9 +1,9 @@
 import React from 'react';
-
+import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 import FormatDate from "./FormatDate";
 import "bootstrap/dist/css/bootstrap.css";
-import WeatherIcon from "./WeatherIcon";
+
 
 
 export default function WeatherInfo(props){
@@ -16,7 +16,7 @@ return(
             <div className="col-4">
         <WeatherTemperature  id="temperature" celsius={props.data.temperature} />
         <div>
-        <WeatherIcon  code={props.data.icon} size={52} />
+        <WeatherIcon code={props.data.icon} size={36}/>
         </div>
         </div>
             <div className="col-4">
