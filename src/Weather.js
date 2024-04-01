@@ -19,7 +19,7 @@ export default function Weather(props){
     description : response.data.weather[0].description,
     wind : Math.round(response.data.wind.speed),
     city : response.data.name,
-    icon: response.data.icon,
+     icon: response.data.weather[0].icon,
 });
     }
     function search (){
