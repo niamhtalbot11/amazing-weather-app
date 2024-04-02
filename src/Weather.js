@@ -42,15 +42,23 @@ function handleCityChange(event) {
 if (weatherData.ready){
 return (
     <div className="Weather">
+      
    <form onSubmit={handleSubmit}>
+    
    <div className="searchEngine pt-3">
-   <input type="search" class="form-control d-inline me-4" id="searchEngine" placeholder="Enter a city" onChange={handleCityChange}/>
-   <input type="submit" className="d-inline p-2" value="Search" id="searchButton" />
+   <div className="row">
+   <div className="col-2"></div>
+   <input type="search" className="form-control col-6" id="searchEngine" placeholder="Enter a city" onChange={handleCityChange}/>
+   <input type="submit"  className="col-2" value="Search" id="searchButton" />
+   <div className="col-2"></div>
+   </div>
    </div>
   </form>
+  
   <WeatherInfo data={weatherData} />
   {/* <WeatherForecast coordinates={weatherData.coordinates} /> */}
-  </div>    
+  
+  </div>
 )
  }
  else {

@@ -31,7 +31,7 @@ function fahrenheit (){
   return (
     <div className="WeatherTemperature">
       <span id ="temperature">{Math.round(fahrenheit())}</span>
-      <span id="unit">
+      <span id="unit ">
       <a href ="/" id="unit"onClick ={showCelsius}>°C </a>
       | {" "}
        °F
