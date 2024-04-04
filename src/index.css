@@ -59,6 +59,7 @@ input#searchButton{
   font-weight:400;
   color: #1E1E1E;
   padding-top: -40px;
+  margin-left:15px;
  
 }
 .description, .date {
@@ -89,7 +90,7 @@ input#searchButton{
   font-weight:300;
   text-decoration:none;
   color: #1E1E1E;
-  padding-top: -40px;
+  padding-top: 30px;
 }
 #unit{
   font-family: "Fanwood Text", serif;
