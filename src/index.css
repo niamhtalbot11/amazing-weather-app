@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=Shrikhand&display=swap');
 .container {
   max-width:800px;
-  margin-top:50px;
-  height:600px;
+  margin-top:30px;
+  margin-bottom:30px;
+  padding-bottom:20px;
+  height:auto;
   background-color:#F4F5FB;
 }
 
@@ -50,21 +52,18 @@ input#searchButton{
 }
 
 
-#WeatherTemperature {
-  padding-top:30px;
-}
 #temperature {
   font-family: "Fanwood Text", serif;
-  font-size:80px;
+  font-size:70px;
   font-weight:400;
   color: #1E1E1E;
-  padding-top: -40px;
+  padding-top: 30px;
   margin-left:15px;
  
 }
 .description, .date {
   font-family: "Fanwood Text", serif;
-  font-size:25px;
+  font-size:22px;
   line-height: 35px;
   letter-spacing:2px;
   color: #1E1E1E;
@@ -74,7 +73,7 @@ input#searchButton{
 }
 .humidity, .windSpeed,ul {
   font-family: "Fanwood Text", serif;
-  font-size:25px;
+  font-size:22px;
   line-height: 35px; 
   letter-spacing:2px;
   color: #1E1E1E;
@@ -90,7 +89,7 @@ input#searchButton{
   font-weight:300;
   text-decoration:none;
   color: #1E1E1E;
-  padding-top: 30px;
+ 
 }
 #unit{
   font-family: "Fanwood Text", serif;
@@ -98,6 +97,7 @@ input#searchButton{
   font-weight:300;
   text-decoration:none;
   color: #1E1E1E;
+  padding-top:30px;
 }
 
 .a{
@@ -111,11 +111,5 @@ input#searchButton{
 .Weather canvas {
   margin-right: 5px;
   margin-top: 20px;
- margin-left:30px;
-}
-.Weather img {
-  width: 64px;
-  height: 64px;
-  margin-right: 10px;
-  
+ margin-left:10px;
 }
